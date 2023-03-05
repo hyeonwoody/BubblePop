@@ -19,7 +19,7 @@
 </br>
 
 ## 🧱: Technologies Used
->React (Router)
+>React ()
 
 ## 📖: Libraries Used
->
+>styled-components
