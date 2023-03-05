@@ -19,7 +19,7 @@
 </br>
 
 ## 🧱: Technologies Used
->React ()
+>React (useCallback)
 
 ## 📖: Libraries Used
 >styled-components

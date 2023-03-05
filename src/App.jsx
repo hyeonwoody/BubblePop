@@ -1,12 +1,17 @@
-import React from 'react'
-import styled from 'styled-components'
-import Container from './Container'
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import Container from './Container';
+import NewMessage from './NewMessage';
 
 function App() {
-
+  const [newText, setNewText] = useState('')
   return (
     <AppDiv>
       <Container>
+        <NewMessage
+          value={newText}
+          onChange={setNewText}
+        />
       </Container>
     </AppDiv>
   )
