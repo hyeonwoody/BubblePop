@@ -1,5 +1,5 @@
 # BubblePop
-> 타이핑으로 말풍선 생성하기
+타이핑으로 말풍선 생성하기
 
 </br>
 
@@ -11,6 +11,8 @@
 편하게 타이핑 만으로 자막편집을 할 수 있는
 웹 기반 말풍선 생성기를 만들어보았습니다.
 
+</br>
+
 ## 📞: Contact
 - 이메일: hyeonwoody@gmail.com
 - 블로그: https://velog.io/@hyeonwoody
@@ -19,7 +21,7 @@
 </br>
 
 ## 🧱: Technologies Used
->React (useCallback)
+>React (useCallback, useEffect, useState)
 
 ## 📖: Libraries Used
 >styled-components
