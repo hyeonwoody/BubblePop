@@ -22,7 +22,7 @@ https://hyeonwoody.github.io/BubblePop/
 </br>
 
 ## 🧱: Technologies Used
->React (useCallback, useEffect, useState)
+>React (useCallback, useEffect, useState, useRef, shouldComponentUpdate)
 
 ## 📖: Libraries Used
 >styled-components

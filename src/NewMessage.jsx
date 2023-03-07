@@ -30,9 +30,10 @@ export const InputMessage = styled.div`
   opacity: 1;
   border: none;
   outline: none;
-  background-color: #eee;
+  background-color: #000;
   font-size: 32px;
   min-width: 30px;
+  color : #FFF;
   &.submitted {
     transition: none;
   }
