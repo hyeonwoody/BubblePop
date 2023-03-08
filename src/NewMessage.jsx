@@ -1,9 +1,9 @@
-import React, { useCallback } from 'react';
+import React, { useCallback,useState } from 'react';
 import styled from 'styled-components';
 import Content from './Content';
 
-const NewMessage = ({value, onChange}) => {
-
+const NewMessage = ({value, onChange, onSubmit}) => {
+    const [submitted, setSubmitted] = useState(false);
     const handleChange = useCallback (
         e => {
             console.log("eee", e.target.value);
@@ -11,6 +11,20 @@ const NewMessage = ({value, onChange}) => {
         },
         [onChange]
     );
+    
+    const handleKeyDown = useCallback (
+      e => {
+        if (e.keyCode === 13){
+          onSubmit && onSubmit()
+          e.preventDefault()
+          setSubmitted(true)
+          setTimeout (()=>{
+            window.document.querySelector('.bubble.input > div').focus()
+            setSubmitted(false)
+          },10)
+        }
+      }
+    )
 
     console.log ('test text : ', value);
     return (
@@ -20,6 +34,7 @@ const NewMessage = ({value, onChange}) => {
             <Content
                 value={value}
                 onChange={handleChange}
+                onKeyDown={handleKeyDown}
             />
         </InputMessage>
     )

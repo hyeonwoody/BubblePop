@@ -11,6 +11,7 @@ class Content extends React.Component {
         ref={this.refElement}
         onInput={this.emitChange}
         onBlur={this.emitChange}
+        onKeyDown={this.emitKeyDown}
         contentEditable
         spellCheck="false"
         dangerouslySetInnerHTML={{ __html: this.props.value }}
@@ -35,6 +36,11 @@ class Content extends React.Component {
       })
     }
     this.lastValue = value
+  }
+
+  emitKeyDown = e => {
+    const { onKeyDown } = this.props
+    onKeyDown && onKeyDown(e)
   }
 }
 
