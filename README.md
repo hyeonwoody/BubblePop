@@ -1,6 +1,5 @@
 # BubblePop
 타이핑으로 말풍선 생성하기
-https://hyeonwoody.github.io/BubblePop/
 
 </br>
 
