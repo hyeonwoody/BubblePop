@@ -1,16 +1,35 @@
 import React from 'react'
 import styled from 'styled-components';
+import {motion} from 'framer-motion'
 const Bubble = ({ id, children}) => {
   return (
     <BubbleDiv
-      key={id}
+      key = {id}
+      initial = "initial"
+      animate = "bubbleEnter"
+      exit = "bubbleExit"
+      variants = {{
+        initial: {opacity: 1, translateY:60},
+        'bubbleEnter' : {opacity: 1, translateY: 0},
+        'bubbleExit': {opacity: 0}
+      }}
     >
       {children}
     </BubbleDiv>
   )
 }
 
-const BubbleDiv = styled.div`
+const BubbleDiv = styled(motion.div)`
+  opacity: 1;
+  transform: translateY(60px);
+  &.bubble-enter {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  &.bubble-exit {
+    opacity: 0;
+  }
+
   border-radius: 30px;
   padding: 12px 20px;
   margin-top: 5px;

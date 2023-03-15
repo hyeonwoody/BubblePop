@@ -26,3 +26,4 @@ https://hyeonwoody.github.io/BubblePop/
 
 ## 📖: Libraries Used
 >styled-components
+>framer-motion

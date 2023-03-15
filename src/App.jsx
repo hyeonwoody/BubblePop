@@ -1,9 +1,10 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Container from './Container';
+import Bubble from './Bubble'
 import NewMessage from './NewMessage';
 import textArray from './TextArray'
-import Bubble from './Bubble'
+import {AnimatePresence} from 'framer-motion';
 
 function App() {
   const [newText, setNewText] = useState('')
@@ -29,11 +30,13 @@ function App() {
   return (
     <AppDiv>
       <Container>
+        <AnimatePresence>
       {texts && texts.map(m => (
           <Bubble key={m} id={m}>
             {m}
           </Bubble>
         ))}
+        </AnimatePresence>
         <NewMessage
           value={newText}
           onChange={setNewText}
