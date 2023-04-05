@@ -25,5 +25,5 @@ https://hyeonwoody.github.io/BubblePop/
 >React (useCallback, useEffect, useState, useRef, shouldComponentUpdate)
 
 ## 📖: Libraries Used
->styled-components
+>styled-components  
 >framer-motion
