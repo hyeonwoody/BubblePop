@@ -1,10 +1,12 @@
 # BubblePop
-타이핑으로 말풍선 생성하기
-https://hyeonwoody.github.io/BubblePop/
-
-</br>
 
 ## 🧑‍💻: Intro
+❓ Problem : 코멘터리 형식으로 영상 속 적재적소 타이밍의 자막을 생성하고 싶다, 그러나 시간이 많이 소비 된다 😮
+
+‼ Idea : 영상을 시청하며 실시간으로 타이핑해 말풍선을 띄워 그 화면을 녹화하면 영상과의 싱크를 맞추고 시간을 절약할 수 있겠다! 🤔
+
+💯 Solution : 웹 기반 말풍선 생성기를 만들어보자 😁
+
 브이로그 영상 촬영 및 편집은 시간이 많이 소비되는 작업입니다.
 영상을 실시간으로 시청하면서 
 코멘터리 형식으로 영상 속 적재적소의 타이밍에
@@ -22,8 +24,9 @@ https://hyeonwoody.github.io/BubblePop/
 </br>
 
 ## 🧱: Technologies Used
->React (useCallback, useEffect, useState, useRef, shouldComponentUpdate)
+>Android (compileSdkVersion 30, buildToolsVersion "30.0.2")
+
+</br>
 
 ## 📖: Libraries Used
->styled-components  
->framer-motion
+>Firebase Firestore
