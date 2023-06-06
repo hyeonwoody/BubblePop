@@ -11,6 +11,7 @@ interface BubbleInputProps {
     value: string
     onChange: (value: string) => void
     onCommit: (length: number) => void
+    children?: React.ReactNode;
 }
 
 const BubbleInput = ({ value, onChange, onCommit }: BubbleInputProps) => {
