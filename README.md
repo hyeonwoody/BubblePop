@@ -23,6 +23,7 @@ http://3.37.53.164:51730/BubblePop
 
 ## 🎨: Design
 https://www.figma.com/file/eMZPBSVeLL1MWl0Ms2RyQz/Untitled?type=design&node-id=0%3A1&t=HUDtX1frevIXCmwj-1
+![20230606_221342](https://github.com/hyeonwoody/BubblePop/assets/75844701/0ada44bf-5676-4cbc-9f49-94b1ad8292d4)
 
 </br>
 
