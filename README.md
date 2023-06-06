@@ -42,3 +42,5 @@ https://www.figma.com/file/eMZPBSVeLL1MWl0Ms2RyQz/Untitled?type=design&node-id=0
 
 ## 📖: Libraries Used
 > framer-motion
+> useCallback
+> useRef
