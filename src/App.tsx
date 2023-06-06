@@ -2,15 +2,9 @@ import {useState} from 'react'
 import './App.css'
 import {AnimatePresence} from "framer-motion";
 
-//import TextList from './parts/TextList'
-
 function App() {
 
     const [newText, setnewText] = useState('');
-    //const [textList, setTextList] = TextList([]);
-
-    //const lastText = textList[textList.length - 1];
-    //const move : number = lastText ? lastText.height : 0;
 
   return (
     <>
@@ -20,7 +14,7 @@ function App() {
 
             </AnimatePresence>
 
-            <button className={"Balloon"}>This is first text</button>
+            <button className={"Balloon"}>This is first message</button>
 
         </div>
       </div>
