@@ -7,5 +7,5 @@ export default defineConfig({
     port: 51730,
   },
   plugins: [react()],
-  base: "/BubblePop",
+  base: "/BubblePop/",
 })
