@@ -35,12 +35,12 @@ https://www.figma.com/file/eMZPBSVeLL1MWl0Ms2RyQz/Untitled?type=design&node-id=0
 </br>
 
 ## 🧱: Technologies Used
-> Vite
+> Vite  
 > TypeScript (react.js)
 
 </br>
 
 ## 📖: Libraries Used
-> framer-motion
-> useCallback
-> useRef
+> framer-motion  
+> useCallback  
+> useRef  
