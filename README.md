@@ -37,7 +37,6 @@ https://www.figma.com/file/eMZPBSVeLL1MWl0Ms2RyQz/Untitled?type=design&node-id=0
 ## 🧱: Technologies Used
 > Vite  
 > TypeScript (react.js)  
-> Java 17
 
 </br>
 
