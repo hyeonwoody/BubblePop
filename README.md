@@ -17,7 +17,7 @@
 </br>
 
 ## 🎥: Demonstration
-http://3.37.53.164:51730/BubblePop
+https://hyeonwoody.github.io/BubblePop/
 
 </br>
 
